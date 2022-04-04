@@ -5,12 +5,14 @@ thumbs.db
 .tmp
 node_modules
 bower_components
+*/assets
 */dependencies
 /publish
 /build
-/test/assets/img/manu*
-/test/dependencies
-/test/vendor
+/test/*
+!/test
+!/test/lessons
+!/test/widgets
 *.komodoproject
 .vscode
 .sublime-project
@@ -19,3 +21,6 @@ bower_components
 .serverless/
 .env
 .code-workspace
+/dist/*
+!/dist
+!/dist/bundle.min.dist.js

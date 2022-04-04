@@ -8,9 +8,6 @@ module.exports = {
   optimization: {
     minimize: true
   },
-  node: {
-    fs: 'empty'
-  },
   module: {
     rules: [
       {

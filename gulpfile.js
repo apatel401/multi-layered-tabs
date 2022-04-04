@@ -4,9 +4,9 @@ const gulp = require('gulp');
 const bump = require('gulp-bump');
 const concat = require('gulp-concat');
 const header = require('gulp-header');
-const rename = require('gulp-rename');
+const sourcemaps = require('gulp-sourcemaps');
 const replace = require('gulp-replace');
-const removeLogging = require("gulp-remove-logging");
+//const removeLogging = require("gulp-remove-logging");
 const args = require('yargs').argv;
 const merge = require('merge-stream');
 const babel = require('gulp-babel');
@@ -54,7 +54,7 @@ function _compileLib() {
         .pipe(babel({
             presets: ['@babel/preset-react'],
         }))
-        .pipe(removeLogging())
+        //.pipe(removeLogging())
         .pipe(gulp.dest('.tmp/js'))
         .on('error', function (err) {
             log.error(err.toString());
@@ -68,8 +68,8 @@ function _compileLib() {
  * @returns Stream
  */
 function _copySass() {
-    return gulp.src('src/css/*.scss')
-        .pipe(gulp.dest('.tmp/css'));
+    return gulp.src('src/**/*.scss')
+        .pipe(gulp.dest('.tmp'));
 }
 
 function _distWebpack() {
@@ -128,9 +128,11 @@ function _jsDev() {
     return gulp.src([
             'src/**/*.js'
         ])
+        .pipe(sourcemaps.init())
         .pipe(babel({
             presets: ['@babel/preset-react'],
         }))
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest('.tmp'));
 }
 
@@ -166,19 +168,18 @@ function _copyImages() {
  * @returns Stream
  */
 function _copyDevelopmentAssets() {
-   /**
-    * bootstrap 5 css needs to be added here
-    */
-   //  var _css = gulp.src('node_modules/k8-bootstrap-css/scss/tvo_k8.css')
-   //      .pipe(gulp.dest('test/vendor')); 
+    var _css = gulp.src('node_modules/@ilcdcc/k8-bootstrap-css/scss/tvo_k8.css')
+        .pipe(gulp.dest('test/vendor')); 
     
+    var _css2 = gulp.src('node_modules/@html5-course-libraries/gvl/dist/ilc_core.css').pipe(gulp.dest('test/vendor'));
+
     var _devAssets = gulp.src([
-            'node_modules/development-assets/assets/**/*',
-            'node_modules/development-assets/dependencies/**/*'
-        ], { base: 'node_modules/development-assets' })
+            'node_modules/@digital-learning/development-assets/assets/**/*',
+            'node_modules/@digital-learning/development-assets/dependencies/**/*'
+        ], { base: 'node_modules/@digital-learning/development-assets' })
         .pipe(gulp.dest('test')); 
     
-    return merge(_css, _devAssets);
+    return merge(_css, _css2, _devAssets);
 }
 
 /**
@@ -207,8 +208,8 @@ exports.publishTest = publishTest;
  * @returns Stream
  */
 function _livereload() {
-    gulp.watch('src/css/**/*.scss', gulp.series(_copySass,_devWebpack));
-    gulp.watch('src/js/**/*.js', gulp.series(_jsDev, _devWebpack));
+    gulp.watch('src/**/*.scss', gulp.series(_copySass,_devWebpack));
+    gulp.watch('src/**/*.js', gulp.series(_jsDev, _devWebpack));
     gulp.watch('src/img/**/*', gulp.series(_copyImages, _devWebpack));
 };
 
