@@ -1,57 +1,60 @@
 {
-  "name": "@digital-learning/money",
-  "version": "1.0.6",
-  "description": "Configurable, reusable manipulative to help students identify and count coins to calculate money totals",
-  "main": "index.js",
-  "scripts": {
-    "publishTest": "gulp publishTest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@gitlab.tvo.org:digital-learning/interactives/money.git"
-  },
-  "keywords": [
-    "interactives",
-    "widget",
-    "react",
-    "money"
-  ],
-  "author": "Ripal",
-  "license": "ISC",
-  "files": [
-    "index.js",
-    "dist/**/*"
-  ],
-  "dependencies": {
-    "react-transition-group": "^4.4.1"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.13.10",
-    "@babel/preset-react": "^7.12.13",
-    "@digital-learning/development-assets": "^1.0.0",
-    "@html5-course-libraries/gvl": "^1.1.4",
-    "@ilcdcc/k8-bootstrap-css": "^1.0.1",
-    "css-loader": "^5.1.3",
-    "del": "^6.0.0",
-    "fancy-log": "^1.3.3",
-    "gulp": "^4.0.2",
-    "gulp-babel": "^8.0.0",
-    "gulp-bump": "^3.2.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-header": "^2.0.9",
-    "gulp-remove-logging": "^1.2.0",
-    "gulp-replace": "^1.0.0",
-    "gulp-sourcemaps": "^3.0.0",
-    "gulp-strip-debug": "^3.0.0",
-    "merge-stream": "^2.0.0",
-    "node-sass": "^5.0.0",
-    "sass-loader": "^10.1.1",
-    "source-map-loader": "^1.1.3",
-    "style-loader": "^2.0.0",
-    "url-loader": "^4.1.1",
-    "webpack": "^5.26.1",
-    "webpack-cli": "^4.5.0",
-    "webpack-stream": "^6.1.2",
-    "yargs": "^16.2.0"
+	"name": "venn-diagram",
+	"version": "1.1.0",
+	"description": "Reusable, configurable interactive component presenting a single question multiple choice quiz.",
+	"main": "index.js",
+	"scripts": {
+	  "publishTest": "gulp publishTest",
+	  "dev": "gulp dev"
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "none"
+	},
+	"keywords": [
+	  "interactives",
+	  "widget",
+	  "react",
+	  "venn-diagram"
+	],
+	"author": "content solutions",
+	"license": "ISC",
+	"files": [
+	  "index.js",
+	  "dist/**/*"
+	],
+	"dependencies": {
+	  "lodash": "^4.17.21",
+	  "react": "^17.0.2",
+	  "react-dom": "^17.0.2",
+	  "react-icons": "^4.3.1",
+	  "react-router-dom": "^6.2.1",
+	  "widget-common": "./widget-common"
+	},
+	"devDependencies": {
+	  "@babel/core": "^7.13.10",
+	  "@babel/preset-react": "^7.12.13",
+	  "css-loader": "^5.1.3",
+	  "dart-sass": "^1.25.0",
+	  "del": "^6.0.0",
+	  "fancy-log": "^1.3.3",
+	  "gulp": "^4.0.2",
+	  "gulp-babel": "^8.0.0",
+	  "gulp-bump": "^3.2.0",
+	  "gulp-concat": "^2.6.1",
+	  "gulp-header": "^2.0.9",
+	  "gulp-remove-logging": "^1.2.0",
+	  "gulp-rename": "^2.0.0",
+	  "gulp-replace": "^1.0.0",
+	  "merge-stream": "^2.0.0",
+	  "sass": "^1.32.8",
+	  "sass-loader": "^10.1.1",
+	  "style-loader": "^2.0.0",
+	  "url-loader": "^4.1.1",
+	  "webpack": "^5.27.2",
+	  "webpack-cli": "^4.5.0",
+	  "webpack-stream": "^6.1.2",
+	  "yargs": "^16.2.0"
+	}
   }
-}
+  

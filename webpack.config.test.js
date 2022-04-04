@@ -1,35 +1,28 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
   resolve: {
-    extensions: ['.js'],
+    extensions: [".js"],
     alias: {
-        // Resolve aliases required by ReactDOM when referencing 'react'
-        "react": path.resolve(__dirname, 'node_modules/@digital-learning/react/react.production.min'),
-        "ReactDOM": path.resolve(__dirname, 'node_modules/@digital-learning/react/react-dom.production.min'),
-        "react-dom": "ReactDOM",
-        "material-ui": path.resolve(__dirname, 'node_modules/@digital-learning/material-ui/material-ui.production.min'),
-    }
+      // Resolve aliases required by ReactDOM when referencing 'react'
+    },
   },
-  devtool: "eval-source-map",
   optimization: {
-    minimize: false
+    minimize: false,
+  },
+  node: {
+    fs: "empty",
   },
   module: {
     rules: [
-      {
-        test: /\.js$/,
-        enforce: "pre",
-        use: ["source-map-loader"]
-      },
       {
         test: /\.scss$/i,
         use: ["style-loader", "css-loader?sourceMap", "sass-loader?sourceMap"],
       },
       {
-        test: /\.svg$/,
-        loader: 'url-loader'
-      }
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        loader: "url-loader",
+      },
     ],
-  }
+  },
 };
