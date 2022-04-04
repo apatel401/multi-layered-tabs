@@ -1,60 +1,59 @@
 {
-	"name": "venn-diagram",
+	"name": "multi-layer-tabs",
 	"version": "1.1.0",
 	"description": "Reusable, configurable interactive component presenting a single question multiple choice quiz.",
 	"main": "index.js",
 	"scripts": {
-	  "publishTest": "gulp publishTest",
-	  "dev": "gulp dev"
+		"publishTest": "gulp publishTest",
+		"dev": "gulp dev"
 	},
 	"repository": {
-	  "type": "git",
-	  "url": "none"
+		"type": "git",
+		"url": "none"
 	},
 	"keywords": [
-	  "interactives",
-	  "widget",
-	  "react",
-	  "venn-diagram"
+		"interactives",
+		"widget",
+		"react",
+		"Multi-layer-tabs"
 	],
 	"author": "content solutions",
 	"license": "ISC",
 	"files": [
-	  "index.js",
-	  "dist/**/*"
+		"index.js",
+		"dist/**/*"
 	],
 	"dependencies": {
-	  "lodash": "^4.17.21",
-	  "react": "^17.0.2",
-	  "react-dom": "^17.0.2",
-	  "react-icons": "^4.3.1",
-	  "react-router-dom": "^6.2.1",
-	  "widget-common": "./widget-common"
+		"lodash": "^4.17.21",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-icons": "^4.3.1",
+		"react-router-dom": "^6.2.1",
+		"widget-common": "./widget-common"
 	},
 	"devDependencies": {
-	  "@babel/core": "^7.13.10",
-	  "@babel/preset-react": "^7.12.13",
-	  "css-loader": "^5.1.3",
-	  "dart-sass": "^1.25.0",
-	  "del": "^6.0.0",
-	  "fancy-log": "^1.3.3",
-	  "gulp": "^4.0.2",
-	  "gulp-babel": "^8.0.0",
-	  "gulp-bump": "^3.2.0",
-	  "gulp-concat": "^2.6.1",
-	  "gulp-header": "^2.0.9",
-	  "gulp-remove-logging": "^1.2.0",
-	  "gulp-rename": "^2.0.0",
-	  "gulp-replace": "^1.0.0",
-	  "merge-stream": "^2.0.0",
-	  "sass": "^1.32.8",
-	  "sass-loader": "^10.1.1",
-	  "style-loader": "^2.0.0",
-	  "url-loader": "^4.1.1",
-	  "webpack": "^5.27.2",
-	  "webpack-cli": "^4.5.0",
-	  "webpack-stream": "^6.1.2",
-	  "yargs": "^16.2.0"
+		"@babel/core": "^7.13.10",
+		"@babel/preset-react": "^7.12.13",
+		"css-loader": "^5.1.3",
+		"dart-sass": "^1.25.0",
+		"del": "^6.0.0",
+		"fancy-log": "^1.3.3",
+		"gulp": "^2.3.0",
+		"gulp-babel": "^8.0.0",
+		"gulp-bump": "^3.2.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-header": "^2.0.9",
+		"gulp-remove-logging": "^1.2.0",
+		"gulp-rename": "^2.0.0",
+		"gulp-replace": "^1.0.0",
+		"merge-stream": "^2.0.0",
+		"sass": "^1.32.8",
+		"sass-loader": "^10.1.1",
+		"style-loader": "^2.0.0",
+		"url-loader": "^4.1.1",
+		"webpack": "^5.27.2",
+		"webpack-cli": "^4.5.0",
+		"webpack-stream": "^6.1.2",
+		"yargs": "^16.2.0"
 	}
-  }
-  
+}
