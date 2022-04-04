@@ -164,8 +164,8 @@ function _copyImages() {
  * @returns Stream
  */
 function _copyDevelopmentAssets() {
-  // var _css = gulp.src('node_modules/k8-bootstrap-css/scss/tvo_k8.css')
-  //     .pipe(gulp.dest('test/vendor'));
+  var _css = gulp.src('node_modules/gvl/bootstrap-mod.css')
+      .pipe(gulp.dest('test/vendor'));
 
   var _devAssets = gulp
     .src(
@@ -178,7 +178,7 @@ function _copyDevelopmentAssets() {
     .pipe(gulp.dest("test"));
 
   // ! If uncommenting _css add _css to _devAssets in return below (_css,_devAssets)
-  return merge(_devAssets);
+  return merge(_css,_devAssets);
 }
 
 /**
