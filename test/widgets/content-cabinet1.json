@@ -1,0 +1,148 @@
+{
+	"id": "content-cabinet1",
+	"fontSizePrimaryCategories": "20",
+	"fontSizeSecondaryCategories": "15",
+	"primaryFontColor": "#ffffff",
+	"secondaryFontColor": "#000000",
+	"iloStartText": "start of content cabinet interactive",
+    "iloEndText": "end of content cabinet interactive",
+    "iloStartLink": "Enter Content Cabinet ILO or press link to skip to the end of activity.",
+    "iloEndLink": "press link to return to start of interactive Content Cabinet activity.",
+	"primaryCategories": [
+		{
+			"title": "Continents",
+			"primaryBgColor": "#064c6a",
+			"secondaryBgColor": "#82bad1",
+			"secondaryCategories": [
+				{
+					"title": "Antartica",
+					"url": "../widgets/content-cabinet-html.html"
+				},
+				{
+					"title": "North America",
+					"url": "../widgets/content-cabinet-html2.html"
+				},
+				{
+					"title": "Africa",
+					"url": "../widgets/content-cabinet-html3.html"
+				},
+				{
+					"title": "Europe",
+					"url": "../widgets/flexWrap.html"
+				},
+				{
+					"title": "Asia",
+					"url": "../widgets/content-cabinet-html2.html"
+				}
+			]
+		},
+		{
+			"title": "Countries",
+			"primaryBgColor": "#105735",
+			"secondaryBgColor": "#84c4a6",
+			"secondaryCategories": [
+				{
+					"title": "Canada",
+					"url": "../widgets/flexWrap.html"
+				},
+				{
+					"title": "USA",
+					"url": "../widgets/content-cabinet-html.html"
+				},
+				{
+					"title": "England",
+					"url": "../widgets/content-cabinet-html3.html"
+				},
+				{
+					"title": "France",
+					"url": "../widgets/content-cabinet-html2.html"
+				},
+				{
+					"title": "Mexico",
+					"url": "../widgets/content-cabinet-html3.html"
+				}
+			]
+		},
+		{
+			"title": "Provinces/States",
+			"primaryBgColor": "#7d490c",
+			"secondaryBgColor": "#cdaf89",
+			"secondaryCategories": [
+				{
+					"title": "Ontario",
+					"url": "../widgets/content-cabinet-html3.html"
+				},
+				{
+					"title": "BC",
+					"url": "../widgets/content-cabinet-html2.html"
+				},
+				{
+					"title": "Manitoba",
+					"url": "../widgets/content-cabinet-html3.html"
+				},
+				{
+					"title": "BC",
+					"url": "../widgets/content-cabinet-html2.html"
+				},
+				{
+					"title": "PEI",
+					"url": "../widgets/content-cabinet-html3.html"
+				}
+			]
+		},
+		{
+			"title": "Regions",
+			"primaryBgColor": "#5a0b4d",
+			"secondaryBgColor": "#e697db",
+			"secondaryCategories": [
+				{
+					"title": "Peel",
+					"url": "../widgets/content-cabinet-html3.html"
+				},
+				{
+					"title": "Halton",
+					"url": "../widgets/content-cabinet-html2.html"
+				},
+				{
+					"title": "Scugog",
+					"url": "../widgets/content-cabinet-html3.html"
+				},
+				{
+					"title": "Haliburton",
+					"url": "../widgets/content-cabinet-html2.html"
+				},
+				{
+					"title": "Muskoka",
+					"url": "../widgets/content-cabinet-html3.html"
+				}
+			]
+		},
+		{
+			"title": "Cities",
+			"primaryBgColor": "#594b0d",
+			"secondaryBgColor": "#c5ba82",
+			"secondaryCategories": [
+				{
+					"title": "Toronto",
+					"url": "../widgets/content-cabinet-html2.html"
+				},
+				{
+					"title": "Mississauga",
+					"url": "../widgets/content-cabinet-html3.html"
+				},
+				{
+					"title": "Brampton",
+					"url": "../widgets/content-cabinet-html2.html"
+				},
+				{
+					"title": "Vaughan",
+					"url": "../widgets/content-cabinet-html3.html"
+				},
+				{
+					"title": "Whitby",
+					"url": "../widgets/content-cabinet-html2.html"
+				}
+			]
+		}
+	]
+}

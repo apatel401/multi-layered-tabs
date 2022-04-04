@@ -1,0 +1,2 @@
+include:
+  - remote:  'https://gitlab.tvo.org/content-solutions-public/gitlab-ci-scripts/digital-learning/elementary-gitlab-npm-registry/raw/master/.gitlab-ci-template.yml'

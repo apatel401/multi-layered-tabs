@@ -1,0 +1,132 @@
+{
+	"id": "content-cabinet1",
+	"fontSizePrimaryCategories": "20",
+	"fontSizeSecondaryCategories": "15",
+	"primaryFontColor": "#ffffff",
+	"secondaryFontColor": "#000000",
+	"iloStartText": "start of content cabinet interactive",
+    "iloEndText": "end of content cabinet interactive",
+    "iloStartLink": "Enter Content Cabinet ILO or press link to skip to the end of activity.",
+    "iloEndLink": "press link to return to start of interactive Content Cabinet activity.",
+	"primaryCategories": [
+		{
+			"title": "Motherhood",
+			"primaryBgColor": "#064c6a",
+			"secondaryBgColor": "#82bad1",
+			"secondaryCategories": [
+				{
+					"title": "Maternal age",
+					"url": "../widgets/family-timeline/maternal-age.html"
+				},
+				{
+					"title": "Fertility",
+					"url": "../widgets/family-timeline/fertility.html"
+				},
+				{
+					"title": "Labour force participation",
+					"url": "../widgets/family-timeline/labour-force-participation.html"
+				},
+				{
+					"title": "Education",
+					"url": "../widgets/family-timeline/education.html"
+				},
+				{
+					"title": "Stay-at-home moms",
+					"url": "../widgets/family-timeline/stay-at-home-moms.html"
+				}
+			]
+		},
+		{
+			"title": "Fatherhood",
+			"primaryBgColor": "#105735",
+			"secondaryBgColor": "#84c4a6",
+			"secondaryCategories": [
+				{
+					"title": "Family relationships",
+					"url": "../widgets/family-timeline/family-relationships.html"
+				},
+				{
+					"title": "Employment",
+					"url": "../widgets/family-timeline/employment.html"
+				},
+				{
+					"title": "Care and unpaid work",
+					"url": "../widgets/family-timeline/care-and-unpaid-work.html"
+				},
+				{
+					"title": "Work–life",
+					"url": "../widgets/family-timeline/work-life.html"
+				}
+			]
+		},
+		{
+			"title": "Demographics",
+			"primaryBgColor": "#7d490c",
+			"secondaryBgColor": "#cdaf89",
+			"secondaryCategories": [
+				{
+					"title": "Life expectancy",
+					"url": "../widgets/family-timeline/demographics-life-expectancy.html"
+				},
+				{
+					"title": "Seniors and elders",
+					"url": "../widgets/family-timeline/seniors-elders.html"
+				},
+				{
+					"title": "Children and youth",
+					"url": "../widgets/family-timeline/children-youth.html"
+				},
+				{
+					"title": "Immigrant families",
+					"url": "../widgets/family-timeline/immigrant-families.html"
+				}
+			]
+		},
+		{
+			"title": "Families and households",
+			"primaryBgColor": "#5a0b4d",
+			"secondaryBgColor": "#e697db",
+			"secondaryCategories": [
+				{
+					"title": "Family structure",
+					"url": "../widgets/family-timeline/family-structure.html"
+				},
+				{
+					"title": "Family finances",
+					"url": "../widgets/family-timeline/family-finances.html"
+				},
+				{
+					"title": "Household size",
+					"url": "../widgets/family-timeline/household-size.html"
+				},
+				{
+					"title": "Housing",
+					"url": "../widgets/family-timeline/housing.html"
+				}
+			]
+		},
+		{
+			"title": "Health and well-being",
+			"primaryBgColor": "#594b0d",
+			"secondaryBgColor": "#c5ba82",
+			"secondaryCategories": [
+				{
+					"title": "Babies and birth",
+					"url": "../widgets/family-timeline/babies-birth.html"
+				},
+				{
+					"title": "Health",
+					"url": "../widgets/family-timeline/health.html"
+				},
+				{
+					"title": "Life expectancy",
+					"url": "../widgets/family-timeline/health-life-expectancy.html"
+				},
+				{
+					"title": "Death and Dying",
+					"url": "../widgets/family-timeline/death-dying.html"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,159 @@
+{
+	"id": "content-cabinet2",
+	"primaryCategories": [
+		{
+			"title": "Continents",
+			"fontSizeContentBoxText": "",
+			"fontSizePrimaryCategories": "",
+			"fontSizeSecondaryCategories": "",
+			"primaryCategoryColor": "",
+			"primaryCategoryFontColor": "",
+			"secondaryCategoryColor": "",
+			"secondaryCategoryFontColor": "",
+			"secondaryCategories": [
+				{
+					"title": "Antartica",
+					"content": "",
+					"url": "../widgets/content-cabinet-html.html"
+				},
+				{
+					"title": "North America",
+					"content": "",
+					"url": "../widgets/content-cabinet-html2.html"
+				},
+				{
+					"title": "Africa",
+					"content": "AFRICA Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "Europe",
+					"content": "EUROPE Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "Asia",
+					"content": "ASIA Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "South America",
+					"content": "SOUTH AMERICA Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				}
+			]
+		},
+		{
+			"title": "Countries",
+			"primaryCategoryColor": "",
+			"primaryCategoryFontColor": "",
+			"secondaryCategoryColor": "",
+			"secondaryCategoryFontColor": "",
+			"secondaryCategories": [
+				{
+					"title": "Canada",
+					"content": "Canada: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "USA",
+					"content": "USA: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "England",
+					"content": "England: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "France",
+					"content": "France: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "Mexico",
+					"content": "Mexico: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				}
+			]
+		},
+		{
+			"title": "Provinces/States",
+			"primaryCategoryColor": "",
+			"primaryCategoryFontColor": "",
+			"secondaryCategoryColor": "",
+			"secondaryCategoryFontColor": "",
+			"secondaryCategories": [
+				{
+					"title": "Ontario",
+					"content": "ON: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "BC",
+					"content": "BC: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "Manitoba",
+					"content": "Man: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "BC",
+					"content": "BC: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "PEI",
+					"content": "PEI: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				}
+			]
+		},
+		{
+			"title": "Regions",
+			"primaryCategoryColor": "",
+			"primaryCategoryFontColor": "",
+			"secondaryCategoryColor": "",
+			"secondaryCategoryFontColor": "",
+			"secondaryCategories": [
+				{
+					"title": "Peel",
+					"content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "Halton",
+					"content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "Scugog",
+					"content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "Haliburton",
+					"content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "Muskoka",
+					"content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				}
+			]
+		},
+		{
+			"title": "Cities",
+			"primaryCategoryColor": "",
+			"primaryCategoryFontColor": "",
+			"secondaryCategoryColor": "",
+			"secondaryCategoryFontColor": "",
+			"secondaryCategories": [
+				{
+					"title": "Toronto",
+					"content": "TO: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "Mississauga",
+					"content": "MISS: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "Brampton",
+					"content": "Brampton: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "Vaunghan",
+					"content": "Vaughan: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				},
+				{
+					"title": "Whitby",
+					"content": "Whitby: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ullam alias consequuntur repellendus minima saepe."
+				}
+			]
+		}
+	]
+}
